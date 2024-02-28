@@ -7,6 +7,7 @@ This Python script generates a QR code image from a provided URL. It removes spe
 - Generates QR codes from URLs
 - Handles invalid URLs gracefully
 - Saves QR code as a PNG image
+- Saves QR code as an SVG image
 - Creates filename with URL information, removing special characters
 
 **Usage:**
@@ -31,7 +32,7 @@ This Python script generates a QR code image from a provided URL. It removes spe
 
 **Example:**
 
-If you enter the URL "<https://hashir.blog>", the script will generate a file named "qr_code_hashir_blog.png".
+If you enter the URL "https://hashir.blog", the script will generate files named "qr_code_hashir_blog.png" and "qr_code_hashir_blog.svg".
 
 **Requirements:**
 
@@ -40,3 +41,4 @@ If you enter the URL "<https://hashir.blog>", the script will generate a file na
   - qrcode
   - requests
   - Pillow
+  - svgwrite

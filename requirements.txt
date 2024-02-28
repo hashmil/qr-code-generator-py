@@ -1,3 +1,4 @@
 qrcode
 requests
-pillow
+Pillow
+svgwrite
