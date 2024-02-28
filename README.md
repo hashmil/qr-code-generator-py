@@ -12,13 +12,33 @@ This Python script generates a QR code image from a provided URL. It removes spe
 
 **Usage:**
 
-1. **Install dependencies:**
+1. **Create a virtual environment:**
+
+   ```bash
+   python -m venv venv
+   ```
+
+2. **Activate the virtual environment:**
+
+   - On Windows:
+
+   ```bash
+   venv\Scripts\activate
+   ```
+
+   - On macOS and Linux:
+
+   ```bash
+   source venv/bin/activate
+   ```
+
+3. **Install dependencies:**
 
    ```bash
    pip install -r requirements.txt
    ```
 
-2. **Run the script:**
+4. **Run the script:**
 
    ```bash
    python main.py
@@ -26,7 +46,7 @@ This Python script generates a QR code image from a provided URL. It removes spe
 
    You will be prompted to enter a URL.
 
-3. **Enter a valid URL and press Enter.**
+5. **Enter a valid URL and press Enter.**
 
    The script will generate and save the QR code image with a descriptive filename based on the URL.
 
